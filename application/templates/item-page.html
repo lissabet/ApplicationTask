@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+<link href="{% static 'css/style.css' %}"
+          rel="stylesheet">
+
+
+{% block content %}
+      <main class="container">
+    </main>
+    <section id="idea" style="background-image: url( '{{ items.image.all.0.image.url }}')">
+        <div class="idea_background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 idea_container">
+                        <div class="idea_img_text">Товар {{ items.title }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="idea_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 idea_container">
+                    <div class="idea_heading">Категория:</div>
+                    {{ items.category.title }}
+                </div>
+
+                <div class="col-lg-8 idea_container">
+                    <div class="idea_heading">Описание:</div>
+                    {{ items.description }}
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}

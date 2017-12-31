@@ -1,0 +1,257 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.item-container{
+    margin: 0!important;
+}
+
+.navbar.menu {
+    background-color: #ededed;
+    /* width: 1280px;*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.navbar-right {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+.navbar > .container .navbar-brand {
+    padding: 0;
+    margin: 0 0 0 3px;
+}
+
+.navbar-nav > li > a.cases {
+    padding: 15px 10px 15px 10px;
+}
+
+a {
+    color: #4F4F4F;
+}
+
+.nav > a, .nav > li > a:focus, .nav > li > a:hover,
+.nav .open > a, nav .open > a:focus, .nav .open > a:hover,
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navbar-nav > li > a {
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: right;
+    color: #4F4F4F;
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+        display: block;
+        color: black;
+    }
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    background: #4F4F4F;
+    color: #fff;
+    transition: all 0.3s;
+    padding: 0 !important;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #4F4F4F;
+}
+
+#sidebar ul.components {
+    border-bottom: 1px solid #4F4F4F;
+}
+
+#sidebar ul {
+    width: 100%;
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+#sidebar ul a {
+    color: #fff;
+
+}
+
+#sidebar ul li {
+
+}
+
+#sidebar ul li a {
+    margin: 15px !important;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li:hover,
+li.active {
+    color: white;
+    background: #828282;
+}
+
+.card {
+    margin: 15px;
+    width: 20rem;
+    display: block;
+    float: left;
+    border: 1px solid rgba(153, 153, 153, 0.37);
+    padding: 15px;
+}
+
+.card a {
+    color: cadetblue;
+}
+
+.card a:hover,
+.card.a:focus {
+    text-decoration: underline;
+}
+
+#idea {
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.idea_background {
+    width: 100%;
+    height: 600px;
+    background: rgba(51, 51, 51, 0.6);;
+}
+
+#idea_content {
+    padding-bottom: 200px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+li {
+    /* padding: 5px 0;*/
+}
+
+ul > li:last-child {
+    padding: 0;
+}
+
+.idea_img_text {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.idea_container {
+    float: none;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.idea_heading {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.idea_text {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+.idea_alltext {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.idea_funcScope {
+    padding-top: 0;
+}
+
+.idea_additional_info {
+    font-style: italic;
+    font-size: 14px;
+    color: #56CCF2;
+}
+
+.idea_btn_download {
+    background: #56CCF2;
+    border-radius: 15px;
+    padding: 2px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.idea_btn_download:hover, .idea_btn_download:active, .idea_btn_download:active:hover, .idea_btn_download:active:focus {
+    color: #ffffff;
+    background: #4AACCC;
+    border: #4AACCC;
+}
+
+.idea_btn_download span {
+    margin-left: 10px;
+}
+
+.idea_additional_info_container {
+    padding-bottom: 20px;
+}
+
+div.content {
+    top: 50px;
+}
+
+.form-control.form-item {
+    width: 800px;
+}
+
+#item-form {
+    border: 1px solid rgba(153, 153, 153, 0.63);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+h1.form-header {
+    padding: 15px;
+    font-size: 32px;
+
+}
